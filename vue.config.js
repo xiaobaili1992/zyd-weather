@@ -7,5 +7,8 @@ module.exports = defineConfig({
       // axios: 'axios',
       // 'lottie-web': 'lottie-web'
     }
+    config.output.library = 'ZydWeathers'
+    config.output.libraryTarget = 'umd'
+    config.output.umdNamedDefine = true
   }
 })
